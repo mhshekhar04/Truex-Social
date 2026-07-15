@@ -1,6 +1,6 @@
 :root {
     --bg-color: #ffffff;
-    --grid-color: rgba(43, 163, 150, 0.15); /* Bolder teal grid */
+    --grid-color: rgba(43, 163, 150, 0.08); /* Faint cyan/teal grid */
     --text-main: #111827;
     --text-muted: #6b7280;
     --card-bg: #ffffff;
@@ -29,8 +29,8 @@ body {
 
     /* Grid background */
     background-image: 
-        linear-gradient(to right, var(--grid-color) 2px, transparent 2px),
-        linear-gradient(to bottom, var(--grid-color) 2px, transparent 2px);
+        linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
     background-size: 60px 60px;
     background-position: center top;
 }
